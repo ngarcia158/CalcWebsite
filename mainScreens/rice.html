@@ -101,6 +101,12 @@ section{
     width: 100%;
     text-align: center;
 }
+article{
+    text-align: center;
+}
+body{
+    font-size: 2vw;
+}
     </style>
     <base target="_self" />
 </head>
@@ -114,21 +120,22 @@ section{
     </div>
     <section>
         <p id="freeResponse"><img src="freeResponse.png" height="300px" width="40%"/></p>
-        1.<input type="text">
+        1.<input type="text" id="1">
         <button name="submit" type="button" onclick="answer1()">Check answer</button>
 
-        2.<input type="text">
+        2.<input type="text" id="2">
         <button name="submit" type="button" onclick="answer2()">Check answer</button>
 
-        3.<input type="text">
+        3.<input type="text" id="3">
         <button name="submit" type="button" onclick="answer3()">Check answer</button>
 
-        4.<input type="text">
+        4.<input type="text" id="4">
         <button name="submit" type="button" onclick="answer4()">Check answer</button>
     </section>
 
     <article>
         <p id="output"></p><br/>
+
     </article>
   
 
