@@ -12,6 +12,9 @@ function hint(){
 function hint2(){
     document.getElementById("output").innerHTML = "<img src='answer2.jpg' width='40%' height='40%'/>"
 }
+function hint3(){
+    document.getElementById("output").innerHTML = "<img src='answer4.jpg' width='40%' height='40%'/>"
+}
 function answer2(){
     if(document.getElementById("2").value === "-1.7602"){
         document.getElementById("output").innerHTML = "Correct<br/> <img src='answer2.jpg' width='40%' height='40%' />" 
@@ -28,8 +31,11 @@ function answer3(){
 
 }
 function answer4(){
-    if(document.getElementById("4").value !== ""){
-        document.getElementById("output").innerHTML = "Compare<br/> <img src='answer4.jpg' id='4' width='40%' height='40%'/>" 
+    if(document.getElementById("4").value === "1.5705"){
+        document.getElementById("output").innerHTML = "Correct<br/> <img src='answer4.jpg' id='4' width='40%' height='40%'/>" 
     }
+    else[
+        document.getElementById("output").innerHTML = "Incorrect <button name='submit' type='button' onclick='hint3()' id='1'>answer</button>"
+    ]
 
 }
